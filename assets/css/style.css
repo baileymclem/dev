@@ -1,0 +1,27 @@
+body {
+    font-family: monospace;
+    font-size: large;
+    background-color: #ffc0cb;
+    margin: 18px;
+}
+
+header {
+    border: solid 1px black;
+    background-color: whitesmoke;
+    padding-left: 18px;
+}
+
+.container {
+    border: solid 1px black;
+    margin-top: 20px;
+    padding: 0px 18px 0px 18px;
+    background-color: whitesmoke;
+}
+
+nav, a {
+    color: #2dc5e7;
+}
+
+footer {
+    position: bottom relative;
+}
