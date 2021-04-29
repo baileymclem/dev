@@ -16,10 +16,18 @@ header {
     margin-top: 20px;
     padding: 0px 18px 0px 18px;
     background-color: whitesmoke;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: ;
 }
 
 nav, a {
     color: #2dc5e7;
+}
+
+img {
+    height: 30%;
+    width: 30%;
 }
 
 footer {
