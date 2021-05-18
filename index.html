@@ -2,38 +2,56 @@
 <html>
 
 <head>
-    <title>✨baileymclem</title>
-    <link rel='stylesheet' href='assets/css/style.css'>
+    <title>baileymclem</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" id="favicon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2280%22>✨</text></svg>">
+
 </head>
 
 <body>
-    <div>
+
+    <!-- toogle switch -->
+    <div class="toggle-wrapper">
+        <div class="toggle-btn"  id="theme-switcher">
+            <div class="inner-circle"></div>
+        </div>
+    </div>
+
+    <div class="container">
         <header>
-            <h1>✨ bailey clemons <span>// full stack web developer | javascript | react | mongodb | express | node</span></h1>
+            <h1 class="light-h1">✨ bailey clemons</h1>
+            <h1 class="dark-h1"> 🌙 bailey clemons</h1>
+            <div class="subtitle">// full stack web developer | javascript | react | mongodb | express |
+                node</div>
             <!-- add breakpoint in headline using css media queries -->
 
             <nav>
                 <ul>
-                    <li><a href='#'>blog</a></li>
-                    <li><a href='#'>resume</a></li>
-                    <li><a href='#'>github</a></li>
-                    <li><a href='#'>linkedin</a></li>
+                    <li><a href="#">blog</a></li>
+                    <li><a href="#">resume</a></li>
+                    <li><a href="#">github</a></li>
+                    <li><a href="#">linkedin</a></li>
                 </ul>
             </nav>
         </header>
     </div>
 
-    <div class='container'>
+    <div class="container">
         <h3>Hi, I'm Bailey.</h3>
         <p>
-            I like building things out of code. I am currently training to be a JavaScript ninja -- I stand under a
-            waterfall in the mountains and ruminate on functions. I am also working on React.js, Node.js, and am
+            I like building things out of code. I am currently training to be a JavaScript ninja -- I stand
+            under a
+            waterfall in the mountains and ruminate on functions. I am also working on React.js, Node.js,
+            and am
             interested in UI/UX design.
         </p>
 
         <p>
-            February 2021, I graduated from a full-stack wev dev boot camp offered by the University of Washington in
-            Seattle. There, I learned the MERN stack and decided to really dig into JavaScript development. So that's
+            February 2021, I graduated from a full-stack wev dev boot camp offered by the University of
+            Washington in
+            Seattle. There, I learned the MERN stack and decided to really dig into JavaScript development.
+            So that's
             what I'm doing! I'm working on my skills and building my portfolio.
         </p>
 
@@ -41,8 +59,10 @@
             Some facts about me:
         <ul>
             <li>I have a BA in Arts, Media, and Culture and a professional certificate in Editing✍ .</li>
-            <li>I love anime -- especially magical girl anime like Sailor🌙Moon and Pretty Cure💖.</li>
-            <li>I built websites🖥 for funsies when I was in high school (back in the AOL days -- I taught myself html
+            <li>I love anime -- especially magical girl anime like Sailor<img
+                    src="assets/images/sm_broch_beanbun_tumblr.gif">Moon and Pretty Cure💖.</li>
+            <li>I built websites🖥 for funsies when I was in high school (back in the AOL days -- I taught
+                myself html
                 and css from using view source🔎 ).</li>
             <li>In my free-time I like to play video games🎮, read📖, and study Japanese🔰.</li>
         </ul>
@@ -56,7 +76,7 @@
         </footer>
     </div>
 
-    <!-- <script src="/assets/js/index.js"></script> -->
+    <script src="/assets/js/index.js"></script>
 </body>
 
 </html>
