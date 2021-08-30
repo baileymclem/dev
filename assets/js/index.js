@@ -19,22 +19,22 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
 		const favicon = document.getElementById("favicon");
 
-		function sparkles() {
+		function sun() {
 			favicon.setAttribute(
 				"href",
-				"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2275%22>✨</text></svg>"
+				"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2275%22>🌞</text></svg>"
 			);
 		}
 
 		function moon() {
 			favicon.setAttribute(
 				"href",
-				"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2275%22>🌙</text></svg>"
+				"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2275%22>🌛</text></svg>"
 			);
 		}
 
 		if (currentTheme === "dark") {
-			sparkles();
+			sun();
 		} else if (currentTheme === "light") {
 			moon();
 		}
