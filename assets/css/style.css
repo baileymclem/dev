@@ -5,7 +5,7 @@
 	--display-dark-h1: none;
 	--display-light-h1: block;
 	--link-color: #1abde2;
-	--hover-link-color: #f495bf;
+	--hover-link-color: #1abde2;
 	--facts-color: #e7ecee;
 }
 
@@ -25,18 +25,16 @@ body {
 	color: var(--text-color);
 	font-family: monospace;
 	font-size: large;
-	margin-top: 20px;
+	margin-top: 5px;
 }
 
-.links-nav {
-	text-align: center;
-	margin-top: 20px;
-	font-size: 40px;
+.soc-links {
+	color: var(--subtitle);
 }
 
 .toggle-btn {
 	margin-left: auto;
-	margin-right: 20%;
+	margin-right: 5px;
 	height: 25px;
 	width: 50px;
 	background: #2f2f2f;
@@ -63,11 +61,9 @@ body {
 }
 
 .container {
-	border: solid 1px black;
-	margin: auto;
-	margin-top: 20px;
+	border: none;
+	margin-top: 5px;
 	padding: 20px;
-	max-width: 60%;
 	background-color: var(--container-color);
 }
 
@@ -108,8 +104,12 @@ header {
 	margin-top: 50px;
 }
 
+.skills {
+	margin-top: 50px;
+}
+
 .contact {
-	margin: 60px 0 100px 30px;
+	margin-top: 50px;
 }
 
 footer {
